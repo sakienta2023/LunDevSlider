@@ -104,7 +104,7 @@ header .menu {
 
 .slider .list .item.active p:nth-child(1),
 .slider .list .item.active h2,
-.slider .list .item.item.active p:nth-child(3) {
+.slider .list .item.active p:nth-child(3) {
     transform: translateX(30px);
     filter: blur(20px);
     opacity: 0;
@@ -115,7 +115,7 @@ header .menu {
     animation-delay: 1s;
 }
 
-.slider .list .item.item.active p:nth-child(3){
+.slider .list .item.active p:nth-child(3){
     animation-delay: 1.3s;
 }
 
@@ -125,4 +125,15 @@ header .menu {
     position: absolute;
     top: 30%;
     right: 50%;
+    z-index: 100;
+}
+
+.arrows button {
+    background-color: #eee5;
+    border: none;
+    font-family: monospace;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: x-large;
 }
